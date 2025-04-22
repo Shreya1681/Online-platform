@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Perpetua Titling MT';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.container {
+    text-align: center;
+    width: 1500px;
+    height: 900px;
+    padding: 20px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.profile-photo img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.heading {
+    font-size: 2em;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.description {
+    font-size: 1.2em;
+    color: white;
+    margin: 15px 0;
+    line-height: 1.6;
+    font-family: 'Segoe UI';
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: white;
+    margin-top: 100px;
+    font-family: 'Segoe UI';
+}
+
+#link:link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+  }
+  #link:visited{
+    color: white;
+  }
+  #link:hover{
+    color:red;
+  }
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 1.8em;
+    }
+    
+    .description {
+        font-size: 0.95em;
+    }
+}

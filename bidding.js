@@ -84,7 +84,7 @@ function placeBid(user, amount) {
     historyEntriesEl.prepend(row);
 }
 
-//botbid
+//botbiding
 
 function botBid() {
     if (currentHighestBid >= botMaxBid) return; 

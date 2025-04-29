@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 /*body style console.log('CSS Styles Loaded'");*/
-/* Add a dark background color to the body */
+
 body {
     font-family: 'Perpetua Titling MT';
     display: flex;

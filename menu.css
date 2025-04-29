@@ -80,7 +80,7 @@ section.category {
 }
 
 @media (max-width: 768px) {
-    section.category {/* added media queryies */
+    section.category {
         flex-direction: column;
         height: auto;
         width: 90%; 

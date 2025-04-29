@@ -11,7 +11,7 @@ body {
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(45,44,51,1) 100%, rgba(59,80,115,1) 100%, rgba(7,53,150,1) 100%, rgba(0,212,255,1) 100%);
 }
-/* Add a dark background color to the body */
+
 
 header {
     background: rgb(0,0,0);

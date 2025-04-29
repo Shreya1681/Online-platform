@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*body style console.log('CSS Styles Loaded');*/
+/*body style console.log('CSS Styles Loaded'");*/
 body {
     font-family: 'Perpetua Titling MT';
     display: flex;

@@ -97,7 +97,7 @@ function botBid() {
 }
 
 const botInterval = setInterval(botBid, Math.random() * 8000 + 12000); 
-
+// new function made
 function updateTimer() {
     const now = new Date().getTime();
     const remainingTime = auctionEndTime - now;
